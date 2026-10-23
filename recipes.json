@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Scrambled Eggs on Toast",
+    "servings": 2,
+    "tags": ["vegetarian", "quick", "breakfast"],
+    "ingredients": [
+      {"item": "eggs", "qty": 4, "unit": "pcs"},
+      {"item": "bread", "qty": 4, "unit": "slices"},
+      {"item": "butter", "qty": 30, "unit": "g"},
+      {"item": "milk", "qty": 60, "unit": "ml"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Vegetable Omelette",
+    "servings": 2,
+    "tags": ["vegetarian", "quick", "breakfast"],
+    "ingredients": [
+      {"item": "eggs", "qty": 4, "unit": "pcs"},
+      {"item": "onion", "qty": 1, "unit": "pcs"},
+      {"item": "bell pepper", "qty": 1, "unit": "pcs"},
+      {"item": "tomato", "qty": 1, "unit": "pcs"},
+      {"item": "oil", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Dal Tadka",
+    "servings": 4,
+    "tags": ["vegetarian", "vegan", "Indian"],
+    "ingredients": [
+      {"item": "red lentils", "qty": 200, "unit": "g"},
+      {"item": "onion", "qty": 1, "unit": "pcs"},
+      {"item": "tomato", "qty": 2, "unit": "pcs"},
+      {"item": "garlic", "qty": 4, "unit": "cloves"},
+      {"item": "ginger", "qty": 1, "unit": "tsp"},
+      {"item": "cumin seeds", "qty": 1, "unit": "tsp"},
+      {"item": "turmeric", "qty": 0.5, "unit": "tsp"},
+      {"item": "oil", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Pasta Aglio e Olio",
+    "servings": 2,
+    "tags": ["vegetarian", "Italian", "quick"],
+    "ingredients": [
+      {"item": "spaghetti", "qty": 200, "unit": "g"},
+      {"item": "garlic", "qty": 6, "unit": "cloves"},
+      {"item": "olive oil", "qty": 60, "unit": "ml"},
+      {"item": "chilli flakes", "qty": 1, "unit": "tsp"},
+      {"item": "parsley", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "servings": 3,
+    "tags": ["non-veg", "Asian", "quick"],
+    "ingredients": [
+      {"item": "chicken breast", "qty": 400, "unit": "g"},
+      {"item": "bell pepper", "qty": 2, "unit": "pcs"},
+      {"item": "broccoli", "qty": 200, "unit": "g"},
+      {"item": "soy sauce", "qty": 3, "unit": "tbsp"},
+      {"item": "garlic", "qty": 3, "unit": "cloves"},
+      {"item": "ginger", "qty": 1, "unit": "tsp"},
+      {"item": "oil", "qty": 2, "unit": "tbsp"},
+      {"item": "rice", "qty": 200, "unit": "g"}
+    ]
+  },
+  {
+    "name": "Banana Pancakes",
+    "servings": 2,
+    "tags": ["vegetarian", "breakfast", "sweet"],
+    "ingredients": [
+      {"item": "banana", "qty": 2, "unit": "pcs"},
+      {"item": "eggs", "qty": 2, "unit": "pcs"},
+      {"item": "flour", "qty": 100, "unit": "g"},
+      {"item": "milk", "qty": 150, "unit": "ml"},
+      {"item": "butter", "qty": 20, "unit": "g"},
+      {"item": "baking powder", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Tomato Soup",
+    "servings": 3,
+    "tags": ["vegetarian", "vegan", "soup"],
+    "ingredients": [
+      {"item": "tomato", "qty": 6, "unit": "pcs"},
+      {"item": "onion", "qty": 1, "unit": "pcs"},
+      {"item": "garlic", "qty": 3, "unit": "cloves"},
+      {"item": "olive oil", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"},
+      {"item": "bread", "qty": 4, "unit": "slices"}
+    ]
+  },
+  {
+    "name": "Egg Fried Rice",
+    "servings": 3,
+    "tags": ["vegetarian", "Asian", "quick"],
+    "ingredients": [
+      {"item": "rice", "qty": 300, "unit": "g"},
+      {"item": "eggs", "qty": 3, "unit": "pcs"},
+      {"item": "onion", "qty": 1, "unit": "pcs"},
+      {"item": "soy sauce", "qty": 2, "unit": "tbsp"},
+      {"item": "garlic", "qty": 2, "unit": "cloves"},
+      {"item": "oil", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 0.5, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Avocado Toast",
+    "servings": 2,
+    "tags": ["vegetarian", "vegan", "breakfast", "quick"],
+    "ingredients": [
+      {"item": "avocado", "qty": 2, "unit": "pcs"},
+      {"item": "bread", "qty": 4, "unit": "slices"},
+      {"item": "lemon", "qty": 1, "unit": "pcs"},
+      {"item": "chilli flakes", "qty": 0.5, "unit": "tsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Rajma Chawal",
+    "servings": 4,
+    "tags": ["vegetarian", "vegan", "Indian"],
+    "ingredients": [
+      {"item": "kidney beans", "qty": 200, "unit": "g"},
+      {"item": "rice", "qty": 300, "unit": "g"},
+      {"item": "onion", "qty": 2, "unit": "pcs"},
+      {"item": "tomato", "qty": 3, "unit": "pcs"},
+      {"item": "garlic", "qty": 4, "unit": "cloves"},
+      {"item": "ginger", "qty": 1, "unit": "tsp"},
+      {"item": "cumin seeds", "qty": 1, "unit": "tsp"},
+      {"item": "turmeric", "qty": 0.5, "unit": "tsp"},
+      {"item": "oil", "qty": 3, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Oatmeal with Banana",
+    "servings": 2,
+    "tags": ["vegetarian", "vegan", "breakfast", "quick"],
+    "ingredients": [
+      {"item": "oats", "qty": 150, "unit": "g"},
+      {"item": "milk", "qty": 400, "unit": "ml"},
+      {"item": "banana", "qty": 2, "unit": "pcs"},
+      {"item": "honey", "qty": 2, "unit": "tbsp"}
+    ]
+  },
+  {
+    "name": "Chicken Curry",
+    "servings": 4,
+    "tags": ["non-veg", "Indian"],
+    "ingredients": [
+      {"item": "chicken", "qty": 500, "unit": "g"},
+      {"item": "onion", "qty": 2, "unit": "pcs"},
+      {"item": "tomato", "qty": 3, "unit": "pcs"},
+      {"item": "garlic", "qty": 5, "unit": "cloves"},
+      {"item": "ginger", "qty": 1, "unit": "tsp"},
+      {"item": "turmeric", "qty": 0.5, "unit": "tsp"},
+      {"item": "cumin seeds", "qty": 1, "unit": "tsp"},
+      {"item": "oil", "qty": 3, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"},
+      {"item": "rice", "qty": 300, "unit": "g"}
+    ]
+  },
+  {
+    "name": "Greek Salad",
+    "servings": 2,
+    "tags": ["vegetarian", "Mediterranean", "quick"],
+    "ingredients": [
+      {"item": "tomato", "qty": 3, "unit": "pcs"},
+      {"item": "cucumber", "qty": 1, "unit": "pcs"},
+      {"item": "bell pepper", "qty": 1, "unit": "pcs"},
+      {"item": "onion", "qty": 0.5, "unit": "pcs"},
+      {"item": "feta cheese", "qty": 100, "unit": "g"},
+      {"item": "olive oil", "qty": 3, "unit": "tbsp"},
+      {"item": "lemon", "qty": 1, "unit": "pcs"},
+      {"item": "salt", "qty": 0.5, "unit": "tsp"}
+    ]
+  },
+  {
+    "name": "Milk Rice Pudding",
+    "servings": 3,
+    "tags": ["vegetarian", "sweet", "dessert"],
+    "ingredients": [
+      {"item": "rice", "qty": 150, "unit": "g"},
+      {"item": "milk", "qty": 750, "unit": "ml"},
+      {"item": "sugar", "qty": 60, "unit": "g"},
+      {"item": "butter", "qty": 20, "unit": "g"}
+    ]
+  },
+  {
+    "name": "Vegetable Khichdi",
+    "servings": 3,
+    "tags": ["vegetarian", "vegan", "Indian", "comfort"],
+    "ingredients": [
+      {"item": "rice", "qty": 150, "unit": "g"},
+      {"item": "red lentils", "qty": 100, "unit": "g"},
+      {"item": "onion", "qty": 1, "unit": "pcs"},
+      {"item": "tomato", "qty": 1, "unit": "pcs"},
+      {"item": "turmeric", "qty": 0.5, "unit": "tsp"},
+      {"item": "cumin seeds", "qty": 1, "unit": "tsp"},
+      {"item": "oil", "qty": 2, "unit": "tbsp"},
+      {"item": "salt", "qty": 1, "unit": "tsp"},
+      {"item": "ginger", "qty": 0.5, "unit": "tsp"}
+    ]
+  }
+]

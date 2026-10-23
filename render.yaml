@@ -1,0 +1,36 @@
+# Render deployment config for the MCP server + demo backend
+# See: https://render.com/docs/blueprint-spec
+#
+# Deploy: push this repo to GitHub, connect it to Render, choose "Blueprint".
+# Set environment variables in the Render dashboard (see .env.example).
+
+services:
+  - type: web
+    name: household-ops-mcp
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python seed.py
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: EXPIRY_WARN_DAYS
+        value: "5"
+      - key: PORT
+        value: "8000"
+    # Add AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION in the dashboard
+
+  - type: web
+    name: household-ops-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MCP_SERVER_URL
+        fromService:
+          name: household-ops-mcp
+          type: web
+          property: host
+        transform: "https://{value}/mcp"
+      - key: PORT
+        value: "7860"
+    # Add BEDROCK_MODEL_ID, AWS_* in the dashboard
